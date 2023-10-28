@@ -1,0 +1,14 @@
+.Banner-ex h2{
+    color:#FD9881;
+    font-size: 40px;
+}
+
+.Banner-ex ul {
+    color: #FD9881;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    line-height: 1.3;
+}

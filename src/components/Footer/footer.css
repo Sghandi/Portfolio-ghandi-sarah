@@ -1,0 +1,19 @@
+.simple-footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.simple-footer img {
+    width: 4%;
+    border-radius: 60%;
+    margin-left: 65px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+/* .reso img {
+    width : 55%;
+} */
