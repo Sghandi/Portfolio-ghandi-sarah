@@ -1,0 +1,23 @@
+.contact-section {
+  background-color: #FEBCAE;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.contact-section h2 {
+  color: white;
+}
+.contact-section ul {
+  list-style-type: none;
+  color: white;
+}
+.contact-section img {
+  width: 7%;
+}
+
+.text-contact {
+  display: flex;
+  justify-content: center;
+  gap: 218px;
+}/*# sourceMappingURL=contact.css.map */

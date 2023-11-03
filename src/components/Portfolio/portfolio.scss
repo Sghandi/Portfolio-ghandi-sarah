@@ -1,0 +1,40 @@
+$darkPink : #FD9881;
+$green : #3CC3B5;
+
+h2 {
+    color:$darkPink;
+
+}
+
+.images-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 47px;
+    padding-bottom: 40px;
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    transition: transform .1s;
+
+    
+}
+}
+.images-section {
+img:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    }
+}
+
+#section-fleche3 {
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    top: 1919px;
+    left: -57px;
+}

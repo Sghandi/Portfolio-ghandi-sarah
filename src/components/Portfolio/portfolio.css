@@ -1,0 +1,30 @@
+h2 {
+  color: #FD9881;
+}
+
+.images-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 47px;
+  padding-bottom: 40px;
+}
+.images-section img {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  transition: transform 0.1s;
+}
+
+.images-section img:hover {
+  transform: scale(1.05);
+}
+
+#section-fleche3 {
+  position: absolute;
+  height: 330px;
+  width: 330px;
+  top: 1919px;
+  left: -57px;
+}/*# sourceMappingURL=portfolio.css.map */

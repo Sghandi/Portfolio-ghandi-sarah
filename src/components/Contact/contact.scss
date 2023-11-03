@@ -1,0 +1,30 @@
+$fadePink : #FEBCAE;
+
+.contact-section {
+    background-color: $fadePink;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 65px;
+    padding-right: 65px;
+
+    h2 {
+    color: white;
+}
+
+ul {
+    list-style-type:none;
+    color: white;
+}
+
+img {
+    width: 7%;
+}
+}
+
+.text-contact {
+    display: flex;
+    justify-content: center;
+    gap: 218px;
+}
+
+
