@@ -1,6 +1,30 @@
 $darkPink : #FD9881;
 $green : #3CC3B5;
 
+.mobile-menu-button {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 65px;
+    height: 6px;
+    background-color: #FD9881;
+    margin: 9px 0;
+    transition: 0.4s;
+}
+
+.bar1.bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.bar2.bar2 {
+    opacity: 0;
+}
+
+.bar3.bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -8,23 +32,28 @@ $green : #3CC3B5;
     /* padding-top: 25px;
     padding-bottom: 40px; */
     /* padding-left: 65px; */
-    padding-right: 65px;
+    padding-right: 5%;
     background-color: white;
     position: fixed;
     width: 100%;
     filter: drop-shadow(0 0 0.10rem rgb(156, 151, 151));
+    z-index: 1000;
     
     img {
-    width: 34%;
+    width: 100%;
     border-radius: 55%;
-    // margin-left: 65px;
     margin-top: 5px;
-    // margin-bottom: 5px;
+    margin-left: 44%;
 }
     
 }
 #image-link {
-        width:12%
+        width:5%;
+        display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    margin-right: 45%;
+    padding-bottom: 4px;
     }
 .logo-container {
     width: fit-content;
@@ -32,8 +61,8 @@ $green : #3CC3B5;
 
 .links-container {
     display: flex;
-    gap: 67px;
-    padding-right: 65px;
+    gap: 15%;
+    padding-top: 5px;
     
     a {
     color: $darkPink;
@@ -41,6 +70,7 @@ $green : #3CC3B5;
     gap: 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    white-space: nowrap;
 
 }
 a :visited {
@@ -51,3 +81,33 @@ a:hover {
     color:#FEBCAE;
 }
 }
+
+// .reso-header {
+//     width: 12%;
+    
+//     img {
+//     width: 46%;
+//     padding-top: 1px;
+//   }
+  
+//   a {
+//     width: 12%;
+//   }
+//   }
+
+  .reso2 {
+    width: 10%;
+    border-radius: 0px;
+    padding-right: 15px;
+    
+    img {
+    width: 21%;
+    margin-left: 13px;
+    border-radius: 0px;
+}
+a {
+    width: 12%;
+}
+}
+
+

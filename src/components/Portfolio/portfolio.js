@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Modal from 'react-modal';
 import './portfolio.css';
 import Modal from './modal';
 
@@ -9,12 +8,15 @@ const images = [
       src: '/images/booki.png',
       title: 'Booki',
       category: 'HTML, CSS',
+      site: "/images/booki.webp",
       description: 'Alternante en développement web au sein de la start-up Booki je suis chargé de développer la page d’accueil d’une agence de voyage d’hébergements et d’activités.',
         paragraph: [
             'Utilisation d’HTML & CSS',
             'Intégration à partir d’une maquette',
             'Gestion du responsive design'
-          ]
+          ],
+      
+      lien: 'https://github.com/Sghandi/Booki',
     },
     {
       src: '/images/kasa.jpg',
@@ -26,19 +28,22 @@ const images = [
         'Intégration à partir d’une maquette',
         'Gestion du Responsive design',
 	    'Respect d’un document « Coding guidelines Kasa »',
-      ]
+      ],
+      site: "/images/kasa.webp",
+      lien:"https://github.com/Sghandi/Kasa-logements",
     },
     {
         src: "/images/menuMaker.png",
         title: 'Menu Maker',
         category: 'Gestion de projet',
-        description: 'Description de l\'image 2.',
+        description: 'Développeuse front-end au sein de l\'agence Webgencia, j\'ai pour mission de mener, préparer et planifier le projet de développent d\'un site. Qwenta, mon client, souhaite développer "Menu Maker" un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. ',
         paragraph: [
-            'Développer l’ensemble de l’application avec React',
-            'Intégration à partir d’une maquette',
-            'Gestion du Responsive design',
-            'Respect d’un document « Coding guidelines Kasa »',
-          ]
+            'Développer un système de veille informationnelle',
+            'Déterminer les spécifications techniques',
+            'Organiser la gestion de projet du développement du site.',
+          ],
+      site: "/images/kasa.webp",
+
         
       },
       {
@@ -48,7 +53,10 @@ const images = [
         description: 'Développeuse front-end pour l\'agence ArchiWebos  je suis appelée en renfort dans une équipe pour développer le portfolio de l’architecte d’intérieure Sophie Bluel.',
         paragraph: [
             'Intégration à partir d’une maquette',
-          ]
+          ],
+        lien:"https://github.com/Sghandi/Portfolio-architecte-sophie-bluel",
+        site: "/images/sophie.webp",
+
       },
       {
         src: "/images/nina.jpg",
@@ -61,7 +69,12 @@ const images = [
             'Utilisation de Metas tags pour les réseaux sociaux',
             'Modifications liées à l’accessibilité du site',
             'Rédaction d’un rapport d’optimisation présentant toutes les actions et leurs impacts',
-        ]
+        ],
+        site: "/images/mvg.png",
+        lien:"https://github.com/Sghandi/Nina-Carducci",
+        site: "/images/nina.webp",
+
+        
       },
       {
         src: "/images/mvg.png",
@@ -73,7 +86,11 @@ const images = [
             'Utilisation de la base donnée MongoDb',
 	        'Utilisation de node.js et express.js',
 	        'Respect de documents : spécifications fonctionnelles, spécifications techniques de l\'API.',
-        ]
+        ],
+        site: "/images/mvg-site.png",
+        lien:"https://github.com/Sghandi/Mon-Vieux-Grimoire",
+      site: "/images/mvg.webp",
+
       },
   ];
   
@@ -96,7 +113,6 @@ export default function Portfolio() {
     return (
         <div className="images-work" id="section3">
             <h2>Portfolio</h2>   
-            {/* <img src="/logos/fleche-violette.png" alt="Logo Sarah" id="section-fleche3" /> */}
 
 
             <div className="images-section">
@@ -104,8 +120,11 @@ export default function Portfolio() {
                     <img 
                     key={index}
                     src={image.src}
-                    alt={'image ${image.title}'}
+                    alt={image.title}
+                    title={image.title}
+                    className="image-with-title"
                     onClick={() => openModal(image)}
+                    
                     />
                 ))} 
             </div>

@@ -1,23 +1,84 @@
 .contact-section {
   background-color: #FEBCAE;
   padding-top: 10px;
-  padding-bottom: 60px;
+  padding-bottom: 33px;
   padding-left: 65px;
   padding-right: 65px;
 }
 .contact-section h2 {
   color: white;
 }
-.contact-section ul {
-  list-style-type: none;
-  color: white;
-}
-.contact-section img {
-  width: 7%;
-}
 
 .text-contact {
   display: flex;
-  justify-content: center;
   gap: 218px;
+}
+
+.contact-image {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: absolute;
+  width: 18%;
+  left: 56%;
+  padding-top: 36px;
+}
+.contact-image img {
+  width: 55px;
+}
+
+#name-card {
+  line-height: 1.7;
+  padding-top: 62px;
+  z-index: 900;
+  color: white;
+  padding-left: 14%;
+  list-style-type: none;
+}
+
+.tache {
+  position: absolute;
+  left: 194px;
+  width: 380px;
+  height: 380px;
+  top: 3142px;
+}
+
+#special-name {
+  color: #fd9881;
+}
+
+#personal-info {
+  list-style-type: none;
+  color: white;
+  line-height: 4.3;
+  position: sticky;
+  left: 60%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 800px) {
+  #personal-info {
+    left: 0%;
+    margin-right: 42%;
+    margin-left: 28%;
+  }
+  .contact-image {
+    left: 28%;
+  }
+  #name-card {
+    display: none;
+  }
+  .text-contact {
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-image {
+    left: 7%;
+  }
+  #personal-info {
+    left: 0%;
+    margin-left: 5%;
+  }
 }/*# sourceMappingURL=contact.css.map */

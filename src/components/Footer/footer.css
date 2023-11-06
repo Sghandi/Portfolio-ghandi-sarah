@@ -6,16 +6,15 @@
 }
 
 .simple-footer p {
-  padding-top: 18px;
+  padding-top: 1.5%;
   color: #FD9881;
 }
 
 #image-link2 img {
   width: 34%;
   border-radius: 60%;
-  /* margin-left: 65px; */
   margin-top: 14px;
-  /* margin-bottom: 5px; */
+  margin-left: 10px;
 }
 
 .reso {
@@ -23,8 +22,9 @@
 }
 
 .reso img {
-  width: 46%;
-  padding-top: 1px;
+  width: 19%;
+  padding-top: 23px;
+  margin-left: 10px;
 }
 
 reso a {

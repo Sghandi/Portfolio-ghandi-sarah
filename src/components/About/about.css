@@ -9,7 +9,7 @@ h2{
 .collapse-button {
     color: white;
     background-color: #3CC3B5;
-    width: 60%;
+    width: 50%;
     border: none;
     border-radius: 15px;
     padding: 45px;
@@ -45,10 +45,10 @@ h2{
   }
 
   .toggle {
-    width: 60%;
+    width: 50%;
     border-radius: 15px;
     background-color: white;
-    margin-left: 20%;
+    margin-left: 25%;
     text-align: left;
     max-height: 0;
     overflow: hidden;
@@ -64,3 +64,37 @@ h2{
   .open {
     max-height: 1000px;
   }
+
+  /* .collapse-section {
+    display: flex;
+  } */
+
+  @media screen and (max-width : 1500px) {
+
+    .collapse-button {
+      width: 75%;
+  }
+  
+  .toggle {
+      width: 75%;
+      margin-left: 12.4%;
+  }
+
+  }
+
+@media screen and (max-width : 500px) {
+
+  .collapse-button {
+    width: 87%;
+    font-size: 20px;
+}
+
+.toggle {
+  width: 86%;
+  margin-left: 7%;
+}
+
+.toggle ul {
+  font-size: 15px;
+}
+}
