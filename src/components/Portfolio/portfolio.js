@@ -5,10 +5,10 @@ import Modal from './modal';
 
 const images = [
     {
-      src: '/images/booki.png',
+      src: './images/booki.png',
       title: 'Booki',
       category: 'HTML, CSS',
-      site: "/images/booki.webp",
+      site: "./images/booki.webp",
       description: 'Alternante en développement web au sein de la start-up Booki je suis chargé de développer la page d’accueil d’une agence de voyage d’hébergements et d’activités.',
         paragraph: [
             'Utilisation d’HTML & CSS',
@@ -19,7 +19,7 @@ const images = [
       lien: 'https://github.com/Sghandi/Booki',
     },
     {
-      src: '/images/kasa.jpg',
+      src: './images/kasa.jpg',
       title: 'Kasa',
       category: 'Javascript, React',
       description: 'Développeuse front-end en freelance je suis chargée de développer la nouvelle plateforme web de Kasa le leader de la location d’appartements entre particuliers en France.',
@@ -29,11 +29,11 @@ const images = [
         'Gestion du Responsive design',
 	    'Respect d’un document « Coding guidelines Kasa »',
       ],
-      site: "/images/kasa.webp",
+      site: "./images/kasa.webp",
       lien:"https://github.com/Sghandi/Kasa-logements",
     },
     {
-        src: "/images/menuMaker.png",
+        src: "./images/menuMaker.png",
         title: 'Menu Maker',
         category: 'Gestion de projet',
         description: 'Développeuse front-end au sein de l\'agence Webgencia, j\'ai pour mission de mener, préparer et planifier le projet de développent d\'un site. Qwenta, mon client, souhaite développer "Menu Maker" un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. ',
@@ -42,12 +42,12 @@ const images = [
             'Déterminer les spécifications techniques',
             'Organiser la gestion de projet du développement du site.',
           ],
-      site: "/images/kasa.webp",
+      site: "./images/kasa.webp",
 
         
       },
       {
-        src: "/images/sophie-bluel.png",
+        src: "./images/sophie-bluel.png",
         title: 'Sophie Bluel',
         category: 'Javascript',
         description: 'Développeuse front-end pour l\'agence ArchiWebos  je suis appelée en renfort dans une équipe pour développer le portfolio de l’architecte d’intérieure Sophie Bluel.',
@@ -55,11 +55,11 @@ const images = [
             'Intégration à partir d’une maquette',
           ],
         lien:"https://github.com/Sghandi/Portfolio-architecte-sophie-bluel",
-        site: "/images/sophie.webp",
+        site: "./images/sophie.webp",
 
       },
       {
-        src: "/images/nina.jpg",
+        src: "./images/nina.jpg",
         title: 'Nina Carducci',
         category: 'Debug, SEO, Optimisation',
         description: 'Développeuse web freelance je suis contacté par Nina Carducci photographe professionnelle à Bordeaux, pour des services d’optimisations SEO.',
@@ -70,14 +70,14 @@ const images = [
             'Modifications liées à l’accessibilité du site',
             'Rédaction d’un rapport d’optimisation présentant toutes les actions et leurs impacts',
         ],
-        site: "/images/mvg.png",
+        site: "./images/mvg.png",
         lien:"https://github.com/Sghandi/Nina-Carducci",
         site: "/images/nina.webp",
 
         
       },
       {
-        src: "/images/mvg.png",
+        src: "./images/mvg.png",
         title: 'Mon Vieux Grimoire',
         category: 'Node.js, Express.js, MongoDB',
         description: 'Engagée par la chaîne de librairies « Le vieux grimoire » je suis chargé de développer le backend d’un site de référencement et de notations de livres « Mon vieux grimoire ». Le front-end est réalisé par Kévin un développeur front-end.',
@@ -87,9 +87,8 @@ const images = [
 	        'Utilisation de node.js et express.js',
 	        'Respect de documents : spécifications fonctionnelles, spécifications techniques de l\'API.',
         ],
-        site: "/images/mvg-site.png",
         lien:"https://github.com/Sghandi/Mon-Vieux-Grimoire",
-      site: "/images/mvg.webp",
+        site: "./images/mvg.webp",
 
       },
   ];

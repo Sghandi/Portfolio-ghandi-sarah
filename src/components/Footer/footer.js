@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className='simple-footer'>
             <a href="#section1" id="image-link2">
-         <img src="/logos/logo-sarah.png" alt="Logo Sarah" />
+         <img src="./logos/logo-sarah.png" alt="Logo Sarah" />
         </a>
             <p>© Ghandi Sarah 2023 | Tous droits réservés.</p>
             <div className='reso'>

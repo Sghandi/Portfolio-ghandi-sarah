@@ -17,7 +17,7 @@ function Header() {
         <div id="scroll-bar">
             <nav className="header-nav">
                 <a href="#section1" id="image-link">
-                    <img src="/logos/logo-sarah.png" alt="Logo Sarah" />
+                    <img src="./logos/logo-sarah.png" alt="Logo Sarah" />
                 </a>
 
                 <div className={`links-container ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
