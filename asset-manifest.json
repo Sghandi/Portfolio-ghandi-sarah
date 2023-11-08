@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-ghandi-sarah/static/css/main.52a0c7d0.css",
-    "main.js": "/Portfolio-ghandi-sarah/static/js/main.80f3c47a.js",
+    "main.css": "/Portfolio-ghandi-sarah/static/css/main.87a11250.css",
+    "main.js": "/Portfolio-ghandi-sarah/static/js/main.f5304217.js",
     "static/js/787.081a0452.chunk.js": "/Portfolio-ghandi-sarah/static/js/787.081a0452.chunk.js",
     "index.html": "/Portfolio-ghandi-sarah/index.html",
-    "main.52a0c7d0.css.map": "/Portfolio-ghandi-sarah/static/css/main.52a0c7d0.css.map",
-    "main.80f3c47a.js.map": "/Portfolio-ghandi-sarah/static/js/main.80f3c47a.js.map",
+    "main.87a11250.css.map": "/Portfolio-ghandi-sarah/static/css/main.87a11250.css.map",
+    "main.f5304217.js.map": "/Portfolio-ghandi-sarah/static/js/main.f5304217.js.map",
     "787.081a0452.chunk.js.map": "/Portfolio-ghandi-sarah/static/js/787.081a0452.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52a0c7d0.css",
-    "static/js/main.80f3c47a.js"
+    "static/css/main.87a11250.css",
+    "static/js/main.f5304217.js"
   ]
 }
