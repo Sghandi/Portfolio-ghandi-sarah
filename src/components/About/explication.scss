@@ -1,5 +1,5 @@
-.Banner-ex h2{
-    color:#FD9881;
+.Banner-ex h2 {
+    color: #FD9881;
     font-size: 40px;
     padding-top: 45px;
 }
@@ -17,24 +17,21 @@
 
     a {
         text-decoration: none;
-        // font-weight: bold;
         position: relative;
+        color: #fd9881;
     }
 
     a:visited {
-        color:#FD9881;
+        color: #FD9881;
     }
-   
-//    a:hover {
-//     color: white;
-//    }
+
     a:hover::before {
         bottom: 0;
         height: 100%;
-        
-      }
 
-      a::before {
+    }
+
+    a::before {
         content: '';
         background-color: #b1e7e2;
         position: absolute;
@@ -45,7 +42,7 @@
         z-index: -1;
         transition: all .3s ease-in-out;
         color: white;
-      }
+    }
 }
 
 #section-fleche {
@@ -65,10 +62,10 @@
 }
 
 #coin1 {
-width: 141px;
-position: absolute;
-left: 121px;
-top: 747px;
+    width: 141px;
+    position: absolute;
+    left: 121px;
+    top: 747px;
 }
 
 #coin2 {
@@ -81,23 +78,23 @@ top: 747px;
 
 @media screen and (max-width : 1500px) {
 
-.Banner-ex ul {
-    padding-left: 50px;
-    padding-right: 50px;
-}
+    .Banner-ex ul {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media screen and (max-width : 500px) {
 
     .Banner-ex {
-    ul {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 22px;
-    }
+        ul {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 22px;
+        }
 
-    h2 {
-        font-size: 35px;
+        h2 {
+            font-size: 35px;
+        }
     }
-}
 }

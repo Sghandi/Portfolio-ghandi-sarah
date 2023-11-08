@@ -18,6 +18,7 @@
 .Banner-ex ul a {
   text-decoration: none;
   position: relative;
+  color: #fd9881;
 }
 .Banner-ex ul a:visited {
   color: #FD9881;

@@ -4,8 +4,8 @@
 }
 
 .bar {
-  width: 65px;
-  height: 6px;
+  height: 3px;
+  width: 45px;
   background-color: #FD9881;
   margin: 9px 0;
   transition: 0.4s;
@@ -90,4 +90,11 @@
 }
 .reso2 a {
   width: 12%;
+}
+
+.links-container.mobile-menu-open {
+  position: fixed;
+  height: 100vh;
+  background-color: #FFEEEB;
+  overflow-y: auto;
 }/*# sourceMappingURL=header.css.map */

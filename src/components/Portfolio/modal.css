@@ -1,7 +1,6 @@
-@charset "UTF-8";
 .modal-content {
-  max-height: 545px; /* Définissez la hauteur maximale souhaitée */
-  overflow-y: auto; /* Active la barre de défilement verticale si le contenu dépasse la hauteur maximale */
+  max-height: 545px;
+  overflow-y: auto;
 }
 
 body.active-modal {
@@ -15,7 +14,8 @@ body.active-modal {
   font-size: 18px;
 }
 
-.modal, .overlay {
+.modal,
+.overlay {
   width: 100vw;
   height: 100vh;
   top: 0;

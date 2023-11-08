@@ -1,100 +1,95 @@
-
-
-
-h2{
-    color:#FD9881;
-    font-size: 40px;
+h2 {
+  color: #FD9881;
+  font-size: 40px;
 }
 
 .collapse-button {
-    color: white;
-    background-color: #3CC3B5;
-    width: 50%;
-    border: none;
-    border-radius: 15px;
-    padding: 45px;
-    font-size: 24px;
-    text-align: center;
-    margin-top: 40px;
+  color: white;
+  background-color: #3CC3B5;
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  padding: 45px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .collapse-button img {
   width: 8%;
 }
-.collapse-button  svg {
-    cursor: pointer;
-    position: sticky;
-    left: 1313px;
-    margin-top: 5px; 
-  }
 
-  .pink-background {
-    background-color: #FFEEEB;
-    padding-bottom: 55px;
-    padding-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-  }
+.collapse-button svg {
+  cursor: pointer;
+  position: sticky;
+  left: 1313px;
+  margin-top: 5px;
+}
 
-  ul {
-    text-align: left;
-    font-size: 20px;
-    line-height: 1.8;
-    font-family: 'Montserrat', sans-serif;
-    color: #3A3A3A;
-    list-style-type: circle;
+.pink-background {
+  background-color: #FFEEEB;
+  padding-bottom: 55px;
+  padding-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: 'Montserrat', sans-serif;
+  color: #3A3A3A;
+  list-style-type: circle;
+}
+
+.toggle {
+  width: 50%;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 25%;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.rotate-icon {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+
+.open {
+  max-height: 1000px;
+}
+
+@media screen and (max-width : 1500px) {
+
+  .collapse-button {
+    width: 75%;
   }
 
   .toggle {
-    width: 50%;
-    border-radius: 15px;
-    background-color: white;
-    margin-left: 25%;
-    text-align: left;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
+    width: 75%;
+    margin-left: 12.4%;
   }
 
-  .rotate-icon {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease;
-  }
-
- 
-  .open {
-    max-height: 1000px;
-  }
-
-  /* .collapse-section {
-    display: flex;
-  } */
-
-  @media screen and (max-width : 1500px) {
-
-    .collapse-button {
-      width: 75%;
-  }
-  
-  .toggle {
-      width: 75%;
-      margin-left: 12.4%;
-  }
-
-  }
+}
 
 @media screen and (max-width : 500px) {
 
   .collapse-button {
     width: 87%;
     font-size: 20px;
-}
+  }
 
-.toggle {
-  width: 86%;
-  margin-left: 7%;
-}
+  .toggle {
+    width: 86%;
+    margin-left: 7%;
+  }
 
-.toggle ul {
-  font-size: 15px;
-}
+  .toggle ul {
+    font-size: 15px;
+    padding-left: 25px;
+  }
 }

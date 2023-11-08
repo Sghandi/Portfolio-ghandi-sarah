@@ -2,9 +2,9 @@ $darkPink : #FD9881;
 $green : #3CC3B5;
 
 .modal-content {
-    max-height: 545px; /* Définissez la hauteur maximale souhaitée */
-    overflow-y: auto; /* Active la barre de défilement verticale si le contenu dépasse la hauteur maximale */
-  }
+    max-height: 545px;
+    overflow-y: auto;
+}
 
 body.active-modal {
     overflow-y: hidden;
@@ -17,7 +17,8 @@ body.active-modal {
     font-size: 18px;
 }
 
-.modal, .overlay {
+.modal,
+.overlay {
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -29,8 +30,9 @@ body.active-modal {
 }
 
 .overlay {
-    background: rgba(49,49,49,0.8);
+    background: rgba(49, 49, 49, 0.8);
 }
+
 .modal-content {
     position: absolute;
     top: 50%;
@@ -45,7 +47,7 @@ body.active-modal {
     z-index: 1000;
 
     h3 {
-        color:$darkPink;
+        color: $darkPink;
         text-align: left;
         font-size: x-large;
     }
@@ -62,7 +64,7 @@ body.active-modal {
     }
 
     p {
-        text-align:left;
+        text-align: left;
         font-size: 20px;
         color: #3A3A3A;
         padding-left: 20px;
@@ -72,7 +74,7 @@ body.active-modal {
         list-style-type: circle;
     }
 
-    a{
+    a {
         color: $darkPink;
     }
 
@@ -87,12 +89,12 @@ body.active-modal {
     top: 10px;
     right: 5px;
     padding: 5px 7px;
-    border:none;
-    cursor:pointer;
+    border: none;
+    cursor: pointer;
     background-color: white;
 
     img {
-        width:26px;
+        width: 26px;
     }
 
 }
