@@ -18,21 +18,7 @@ const images = [
 
     lien: "https://github.com/Sghandi/Booki",
   },
-  {
-    src: "./images/kasa.jpg",
-    title: "Kasa",
-    category: "Javascript, React",
-    description:
-      "En tant que développeuse front-end en freelance j'étais chargée de développer la nouvelle plateforme web de Kasa, le leader de la location d’appartements entre particuliers en France.",
-    paragraph: [
-      "Développement de l’ensemble de l’application avec React",
-      "Intégration à partir d’une maquette",
-      "Gestion du Responsive design",
-      'Respect des "Coding guidelines Kasa"',
-    ],
-    site: "./images/kasa.webp",
-    lien: "https://github.com/Sghandi/Kasa-logements",
-  },
+
   {
     src: "./images/menuMaker.png",
     title: "Menu Maker",
@@ -46,20 +32,7 @@ const images = [
     ],
     site: "./images/menu-maker.webp",
   },
-  {
-    src: "./images/sophie-bluel.png",
-    title: "Sophie Bluel",
-    category: "Javascript",
-    description:
-      "Développeuse front-end pour l'agence ArchiWebos  je suis appelée en renfort dans une équipe pour développer le portfolio de l’architecte d’intérieure Sophie Bluel.",
-    paragraph: [
-      "Intégration à partir d’une maquette",
-      "Conception de la page de connexion de l'administrateur du site (Sophie Bluel)",
-      "Mise en place de multiples appels aux API",
-    ],
-    lien: "https://github.com/Sghandi/Portfolio-architecte-sophie-bluel",
-    site: "./images/sophie.webp",
-  },
+
   {
     src: "./images/nina.jpg",
     title: "Nina Carducci",
@@ -75,8 +48,40 @@ const images = [
     ],
     site: "./images/mvg.png",
     lien: "https://github.com/Sghandi/Nina-Carducci",
-    site: "/images/nina.webp",
+    site: "./images/nina.webp",
   },
+  
+  {
+    src: "./images/sophie-bluel.png",
+    title: "Sophie Bluel",
+    category: "Javascript",
+    description:
+      "Développeuse front-end pour l'agence ArchiWebos  je suis appelée en renfort dans une équipe pour développer le portfolio de l’architecte d’intérieure Sophie Bluel.",
+    paragraph: [
+      "Intégration à partir d’une maquette",
+      "Conception de la page de connexion de l'administrateur du site (Sophie Bluel)",
+      "Mise en place de multiples appels aux API",
+    ],
+    lien: "https://github.com/Sghandi/Portfolio-architecte-sophie-bluel",
+    site: "./images/sophie.webp",
+  },
+
+  {
+    src: "./images/kasa.jpg",
+    title: "Kasa",
+    category: "Javascript, React",
+    description:
+      "En tant que développeuse front-end en freelance j'étais chargée de développer la nouvelle plateforme web de Kasa, le leader de la location d’appartements entre particuliers en France.",
+    paragraph: [
+      "Développement de l’ensemble de l’application avec React",
+      "Intégration à partir d’une maquette",
+      "Gestion du Responsive design",
+      'Respect des "Coding guidelines Kasa"',
+    ],
+    site: "./images/kasa.webp",
+    lien: "https://github.com/Sghandi/Kasa-logements",
+  },
+  
   {
     src: "./images/mvg.png",
     title: "Mon Vieux Grimoire",

@@ -29,9 +29,6 @@
   .reso2 {
     display: none;
   }
-  #image-link {
-    width: 9%;
-  }
   .Banner-home img {
     padding-top: 240px;
   }
@@ -85,6 +82,6 @@
 }
 @media screen and (min-width: 1024px) {
   .links-container.mobile-menu-open {
-    top: 47px;
+    top: 60px;
   }
 }/*# sourceMappingURL=home.css.map */

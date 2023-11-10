@@ -81,4 +81,12 @@
     left: 0%;
     margin-left: 5%;
   }
+}
+@media screen and (max-width: 368px) {
+  #personal-info {
+    margin-left: -15%;
+  }
+  .contact-image {
+    display: none;
+  }
 }/*# sourceMappingURL=contact.css.map */
