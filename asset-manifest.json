@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-ghandi-sarah/static/css/main.87a11250.css",
-    "main.js": "/Portfolio-ghandi-sarah/static/js/main.f5304217.js",
+    "main.css": "/Portfolio-ghandi-sarah/static/css/main.ad2454f4.css",
+    "main.js": "/Portfolio-ghandi-sarah/static/js/main.26b24ade.js",
     "static/js/787.081a0452.chunk.js": "/Portfolio-ghandi-sarah/static/js/787.081a0452.chunk.js",
     "index.html": "/Portfolio-ghandi-sarah/index.html",
-    "main.87a11250.css.map": "/Portfolio-ghandi-sarah/static/css/main.87a11250.css.map",
-    "main.f5304217.js.map": "/Portfolio-ghandi-sarah/static/js/main.f5304217.js.map",
+    "main.ad2454f4.css.map": "/Portfolio-ghandi-sarah/static/css/main.ad2454f4.css.map",
+    "main.26b24ade.js.map": "/Portfolio-ghandi-sarah/static/js/main.26b24ade.js.map",
     "787.081a0452.chunk.js.map": "/Portfolio-ghandi-sarah/static/js/787.081a0452.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87a11250.css",
-    "static/js/main.f5304217.js"
+    "static/css/main.ad2454f4.css",
+    "static/js/main.26b24ade.js"
   ]
 }
